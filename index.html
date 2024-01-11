@@ -6,92 +6,119 @@
     <title>Resume</title>
     <meta name="description" content="Краткое резюме Никита Фролов" />
     <meta name="keywords" content="резюме, Никита Фролов, работа" />
+    <link rel="stylesheet" href="/CSS Course/resumecss.css" />
+    <link rel="stylesheet" href="/CSS Course/04_borders.css" />
   </head>
   <body>
-    <img src="Никита.jpg" alt="Моё фото" width="150" />
+    <div class="card-info">
+      <img src="Никита.jpg" alt="Моё фото" width="150" />
 
-    <h1>Никита Фролов</h1>
-
-    <p>
-      Здравствуйте! Я динамичный cпециaлист в индустрии
-      <strong>гоcтепpиимства</strong> и <strong>рoзничной тopговли</strong>.
-      <br />
-      C oпытoм paбoты <em>более 5 лет</em> в различных сeктoрax
-      гоcтиничнo-pестoрaннoгo бизнeса и pозничнoй тoрговли, я прeдставляю сoбой
-      <em>унивeрcальнoгo специалиста</em>, спocобногo упpaвлять oбширным
-      спектрoм зaдач.
-      <br />
-      От <em>организации работы</em> в кафе и магазинах до
-      <em>высококлассного обслуживания</em> клиентов и управления продажами
-    </p>
-
-    <p><strong>Мои хобби:</strong></p>
-    <ul>
-      <li>IT</li>
-      <li>Музыка и продюссирование</li>
-      <li>Самообразование</li>
-    </ul>
-
-    <h2>Опыт работы</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Компания</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Ресторан "Соль"</td>
-          <td>Официант</td>
-          <td>2020-2021</td>
-        </tr>
-        <tr>
-          <td>Чайхона№1</td>
-          <td>Кальянный мастер</td>
-          <td>2019-2020</td>
-        </tr>
-        <tr>
-          <td>Kalyan4You</td>
-          <td>2018-2019</td>
-          <td>Старший продавец</td>
-        </tr>
-      </tbody>
-    </table>
-    <p><strong>Список социальных сетей:</strong></p>
-    <a href="https://vk.com/mariachimuerto" target="_blank"
-      ><strong>VKontakte</strong></a
-    >|
-    <a href="https://instagram.com/mariachimuerto" target="_blank"
-      ><strong>Instagram</strong></a
-    >|
-
-    <h2>Связаться со мной</h2>
-
-    <form>
-      <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя" />
+      <div class="namename">
+        <h1>Никита Фролов</h1>
       </div>
 
-      <div>
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" placeholder="Введите email" />
-      </div>
-
-      <div>
-        <label for="message">Ваше сообщение: </label>
+      <p>
+        Здравствуйте! Я динамичный cпециaлист в индустрии
+        <strong>гоcтепpиимства</strong> и <strong>рoзничной тopговли</strong>.
         <br />
-        <textarea
-          id="message"
-          cols="15"
-          rows="10"
-          placeholder="Введите сообщение..."
-        ></textarea>
-      </div>
+        C oпытoм paбoты <em>более 5 лет</em> в различных сeктoрax
+        гоcтиничнo-pестoрaннoгo бизнeса и pозничнoй тoрговли, я прeдставляю
+        сoбой <em>унивeрcальнoгo специалиста</em>, спocобногo упpaвлять oбширным
+        спектрoм зaдач.
+        <br />
+        От <em>организации работы</em> в кафе и магазинах до
+        <em>высококлассного обслуживания</em> клиентов и управления продажами
+      </p>
+    </div>
+    <hr class="hr" />
+    <div class="card-hobby">
+      <p><strong>Мои хобби:</strong></p>
+      <ul>
+        <li>IT</li>
+        <li>Музыка и продюссирование</li>
+        <li>Самообразование</li>
+      </ul>
+    </div>
+    <div class="card-exp">
+      <h2>Опыт работы</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ресторан "Соль"</td>
+            <td>Официант</td>
+            <td>2020-2021</td>
+          </tr>
+          <tr>
+            <td>Чайхона№1</td>
+            <td>Кальянный мастер</td>
+            <td>2019-2020</td>
+          </tr>
+          <tr>
+            <td>Kalyan4You</td>
+            <td>2018-2019</td>
+            <td>Старший продавец</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card-contact">
+      <h2>Связаться со мной</h2>
 
-      <button>Отправить!</button>
-    </form>
+      <form>
+        <div>
+          <label for="name">Ваше имя:</label>
+          <input
+            class="contacts"
+            type="text"
+            id="name"
+            placeholder="Введите имя"
+          />
+        </div>
+
+        <div>
+          <label for="email">Ваш email:</label>
+          <input
+            class="contacts"
+            type="email"
+            id="email"
+            placeholder="Введите email"
+          />
+        </div>
+
+        <div>
+          <label for="message">Ваше сообщение: </label>
+          <br />
+          <textarea
+            class="contacts"
+            id="message"
+            cols="30"
+            rows="5"
+            placeholder="Введите сообщение..."
+          ></textarea>
+        </div>
+
+        <button>Отправить!</button>
+      </form>
+    </div>
+    <div class="card-social">
+      <p><strong>Список социальных сетей:</strong></p>
+      <a class="links" href="https://vk.com/mariachimuerto" target="_blank"
+        ><strong>VKontakte</strong></a
+      >|
+      <a
+        class="links"
+        href="https://instagram.com/mariachimuerto"
+        target="_blank"
+        ><strong>Instagram</strong></a
+      >|
+    </div>
+    <hr class="hr" />
   </body>
 </html>
