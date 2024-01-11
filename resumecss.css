@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: #ddd;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.contacts {
+  background: khaki;
+}
+.hr {
+  outline: thin;
+  color: #9ebe28;
+}
+.links {
+  color: khaki;
+}
+.namename {
+  background: khaki;
+}
